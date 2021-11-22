@@ -12,7 +12,7 @@ import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Data;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
-@Document(collection = "credit-payment")
+@Document(collection = "payment")
 @Data
 public class PaymentProduct {
 	
