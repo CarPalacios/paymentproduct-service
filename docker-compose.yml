@@ -1,0 +1,8 @@
+version: '3.7'
+services:
+  web:
+    container_name: paymentproduct-service
+    restart: always
+    build: .
+    ports: 
+      - 8095:8095
