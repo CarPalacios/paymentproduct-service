@@ -1,6 +1,8 @@
 spring:
   application:
-    name: paymentproduct-service   
+    name: paymentproduct-service
   cloud:
     config:
-      uri: http://localhost:8081
+      uri: http://192.168.208.1:8081
+#      uri: http://localhost:8081
+      
